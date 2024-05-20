@@ -19,6 +19,6 @@
 
 # Correr backend - .Net Framework 4.5
 1. cd backend
-2. NuGet Package Manager > Manage NuGet Packages for Solution
+2. Abrir solución
 3. Modificar connectionString
-4. F5
+4. F5 para correr
