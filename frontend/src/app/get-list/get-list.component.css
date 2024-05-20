@@ -1,0 +1,204 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title p {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.dialog-title {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.search-mat {
+    width: 45dvw;
+
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+select {
+    width: 4dvw;
+}
+
+
+
+
+.dialog-create {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-input {
+    width: 31dvw;
+}
+
+.dialog-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+
+.add-button-dialog {
+    background-color: #6c63ff !important;
+    color: white;
+    font-weight: bold;
+}
+
+.cancel-button {
+    color: #6c63ff;
+    font-weight: bold;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+}
+
+.note-text {
+    text-decoration: line-through;
+    text-decoration-color: rgb(239, 61, 61);
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.add-button {
+    padding-top: 0.7rem;
+}
+
+.note-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1.5px solid;
+    border-color: #6c63ff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 40dvw;
+    padding-bottom: 1rem;
+}
+
+.note-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    color: #CDCDCD;
+}
+
+.note-icon mat-icon:hover {
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    color: rgb(55, 216, 53);
+}
+
+.delete-button:hover {
+    color: rgb(209, 55, 55);
+}
+
+mat-icon {
+    user-select: none;
+}
+
+:host ::ng-deep .custom-outline.mat-form-field-appearance-outline .mat-form-field-outline-start,
+:host ::ng-deep .custom-outline.mat-form-field-appearance-outline .mat-form-field-outline-end,
+:host ::ng-deep .custom-outline.mat-form-field-appearance-outline .mat-form-field-outline-gap {
+    color: #6c63ff;
+    border-width: 2px;
+}
+
+.icons {
+    color: #6c63ff;
+}
+
+.icon-background {
+    background-color: #6c63ff;
+}
+
+::ng-deep .mat-checkbox .mat-checkbox-inner-container {
+    width: 25px;
+    height: 25px;
+}
+
+::ng-deep .mat-checkbox .mat-checkbox-inner-container .mat-checkbox-checkmark {
+    width: 25px;
+    height: 25px;
+}
+
+::ng-deep .mat-checkbox .mat-checkbox-checkmark-path {
+    stroke-width: 2px;
+}
+
+::ng-deep .mat-checkbox.mat-accent.mat-checked .mat-checkbox-background,
+::ng-deep .mat-checkbox.mat-accent .mat-checkbox-frame {
+    border-color: #6c63ff;
+}
+
+::ng-deep .mat-checkbox-layout .mat-checkbox-label {
+    font-size: 16px;
+}
+
+::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background,
+::ng-deep .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+    background-color: #2979ff;
+}
+
+
+.custom-mat-form-field {
+    width: 100%;
+}
+
+.angular-table {
+    width: 60dvw;
+    box-shadow: none;
+}
+
+th,
+td {
+    width: 16%;
+    text-align: center !important;
+    
+}
+
+th {
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+}
+
+td {
+    color:rgb(81, 79, 79);
+}
+
+.icon-container {
+    text-align: center;
+}

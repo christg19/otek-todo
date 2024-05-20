@@ -1,0 +1,11 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+.custom-dialog-container .mat-dialog-container {
+    border-radius: 10px;
+    overflow: hidden; 
+  }
+  
