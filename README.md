@@ -22,3 +22,6 @@
 2. Abrir solución
 3. Modificar connectionString
 4. F5 para correr
+
+![appImage](https://i.imgur.com/UfK9yt8.png)
+![swagger](https://i.imgur.com/Wp1Ujww.png)
