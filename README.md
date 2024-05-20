@@ -7,7 +7,7 @@
 - Angular CLI (v7)
 - .NET Framework 4.5
 - Visual Studio 2017/2019 (o superior)
-- Imagen de sqlserver en Docker 
+- Imagen de sqlserver en Docker (docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourStrong(!)Password" -p 1433:1433 --name sqlserver -d mcr.microsoft.com/mssql/server:2019-latest)
 
 ### Verificar versiones de Node.js y npm
 
